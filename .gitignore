@@ -1,0 +1,4 @@
+data/*
+!data/offcial_splits/
+!data/scripts/convert_video_to_15fps.py
+
