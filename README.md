@@ -34,9 +34,9 @@ Summary of Experiments
 
     | Embedding            | Resolution | Precision | Recall | F1    | MCC   |Download                                                                     |
     |:------------------:  |:----------:|:---------:|:------:|:-----:|:-----:|:---------------------------------------------------------------------------:|
-    | Linear Projection    | 1 frame    | 49.74     | 72.21  | 54.48 | 48.86 | [Download](https://drive.google.com/uc?id=)|
-    | ConvNeXt (ImageNet)  | 1 frame    | 62.78     | 85.15  | 70.37 | 68.13 | [Download](https://drive.google.com/uc?id=)|
-    | ConvNeXt (Endoscopy) | 1 frame    | 64.55     | 87.06  | 71.68 | 70.38 | [Download](https://drive.google.com/uc?id=)|
+    | Linear Projection    | 1 frame    | 49.74     | 72.21  | 54.48 | 48.86 | [Download](https://drive.google.com/uc?id=1OWiScIp0P6q37BunhPj6Q3C6ZIQZxDXA)|
+    | ConvNeXt (ImageNet)  | 1 frame    | 62.78     | 85.15  | 70.37 | 68.13 | [Download](https://drive.google.com/uc?id=1A0h6V5HLpqyoaMzdrLFH32ksbJr6J9VF)|
+    | ConvNeXt (Endoscopy) | 1 frame    | 64.55     | 87.06  | 71.68 | 70.38 | [Download](https://drive.google.com/uc?id=1vVVVwEFlAPBLpiIjoQ5eJtY5rYg8fbH4)|
 
 🔄 Multi-Frame-Based Classification
 
@@ -54,31 +54,31 @@ Summary of Experiments
 
     | time   | Precision| Recall    | F1     | MCC    |Download                                                                     |
     |--------|----------|-----------|--------|--------|--------|
-    | 1.0 sec| 74.57    | 85.85     | 79.02  | 76.67  | [Download](https://drive.google.com/uc?id=)|
-    | 3.0 sec| 82.90    | 88.90     | 85.54  | 84.02  | [Download](https://drive.google.com/uc?id=)|
-    | 5.0 sec| 83.94    | 88.39     | 85.91  | 84.29  | [Download](https://drive.google.com/uc?id=)|
-    | 9.0 sec| 85.80    | 86.17     | 85.16  | 84.26  | [Download](https://drive.google.com/uc?id=)|
-    | 13.1sec| 86.56    | 84.75     | 84.54  | 83.95  | [Download](https://drive.google.com/uc?id=)|
+    | 1.0 sec| 74.57    | 85.85     | 79.02  | 76.67  | [Download](https://drive.google.com/uc?id=1ubouZ8vKvkGIpRnLPuTlla0sJR6nuqlo)|
+    | 3.0 sec| 82.90    | 88.90     | 85.54  | 84.02  | [Download](https://drive.google.com/uc?id=1oFOZP8CQwqeOszbBOFLxb-Amj3ZAApkI)|
+    | 5.0 sec| 83.94    | 88.39     | 85.91  | 84.29  | [Download](https://drive.google.com/uc?id=1qcwzhtbZmRzodTHNg1FAH0xQi-A1Y3g0)|
+    | 9.0 sec| 85.80    | 86.17     | 85.16  | 84.26  | [Download](https://drive.google.com/uc?id=1MjIOVvNUt5sESBq9o7A-2RZ9TGmEgyrG)|
+    | 13.1sec| 86.56    | 84.75     | 84.54  | 83.95  | [Download](https://drive.google.com/uc?id=1Oi8RfUBZkTSVf8y3AO_P5MJiuzMp_Y3N)|
 
 - 2️⃣ ViT-Base initialized with Random Weights
 
     | time   | Precision| Recall    | F1     | MCC    |Download                                                                     |
     |--------|----------|-----------|--------|--------|--------|
-    | 1.0 sec| 70.60    | 86.10     | 76.85  | 74.64  | [Download](https://drive.google.com/uc?id=)|
-    | 3.0 sec| 78.54    | 89.47     | 83.19  | 80.80  | [Download](https://drive.google.com/uc?id=)|
-    | 5.0 sec| 80.47    | 89.86     | 84.53  | 82.56  | [Download](https://drive.google.com/uc?id=)|
-    | 9.0 sec| 77.56    | 87.52     | 80.98  | 78.96  | [Download](https://drive.google.com/uc?id=)|
-    | 13.1sec| 77.31    | **90.33** | 82.72  | 80.11  | [Download](https://drive.google.com/uc?id=)|
+    | 1.0 sec| 70.60    | 86.10     | 76.85  | 74.64  | [Download](https://drive.google.com/uc?id=1bEW2ik5KoMI1pCVGB2XJKkoQYVJMKHBC)|
+    | 3.0 sec| 78.54    | 89.47     | 83.19  | 80.80  | [Download](https://drive.google.com/uc?id=1ZNdHo3Us9C_vfaIN7RYvgVzzZMb6KCBl)|
+    | 5.0 sec| 80.47    | 89.86     | 84.53  | 82.56  | [Download](https://drive.google.com/uc?id=1HOJUPkxxUjn3HUT7xGkNH9NTSEQ7698d)|
+    | 9.0 sec| 77.56    | 87.52     | 80.98  | 78.96  | [Download](https://drive.google.com/uc?id=11b7UYdeW3tiedns26CFF9KyZ2ckaWPIr)|
+    | 13.1sec| 77.31    | **90.33** | 82.72  | 80.11  | [Download](https://drive.google.com/uc?id=1w0ee4h7Lmq8Dj3wxMfIvvydaQefT7AoC)|
 
 - 3️⃣ ViT-Base initialized with ImageNet Pretraining
 
     | time   | Precision| Recall    | F1       | MCC      |Download                                                                     |
     |--------|----------|-----------|----------|----------|--------|
-    | 1.0 sec| 82.24    | 88.10     | 84.96    | 83.08    | [Download](https://drive.google.com/uc?id=)|
-    | 3.0 sec| 89.74    | 89.14     | 89.14    | 87.85    | [Download](https://drive.google.com/uc?id=)|
-    | 5.0 sec| 91.03    | 90.29     | 90.29    | 89.62    | [Download](https://drive.google.com/uc?id=)|
-    | 9.0 sec| **92.03**| 90.42     | **90.42**| **89.94**| [Download](https://drive.google.com/uc?id=)|
-    | 13.1sec| 89.87    | 88.64     | 88.64    | 88.19    | [Download](https://drive.google.com/uc?id=)|   
+    | 1.0 sec| 82.24    | 88.10     | 84.96    | 83.08    | [Download](https://drive.google.com/uc?id=1xnwvKi66rQiAAyv7F3-yTWSFo46kfPr3)|
+    | 3.0 sec| 89.74    | 89.14     | 89.14    | 87.85    | [Download](https://drive.google.com/uc?id=1T8aFFWa8NYvUfMQhQEsBjTdpGA_73hyv)|
+    | 5.0 sec| 91.03    | 90.29     | 90.29    | 89.62    | [Download](https://drive.google.com/uc?id=1sVsYEbqIZALPG9OArPQcqer27l64P3ss)|
+    | 9.0 sec| **92.03**| 90.42     | **90.42**| **89.94**| [Download](https://drive.google.com/uc?id=1mnUBkxdWrNNpR_Yg_V0eWIzN6AyPfmsV)|
+    | 13.1sec| 89.87    | 88.64     | 88.64    | 88.19    | [Download](https://drive.google.com/uc?id=1mvtLAkSe8h6STXE4LSPcF47_FklFDzAw)|   
 
 ## 🏥 Stomach Sites Classification
 
@@ -91,34 +91,34 @@ Summary of Experiments
 📂 For a detailed breakdown, refer to the [stomachsiteclassification.md](stomachsiteclassification.md) file.
 
 - 1️⃣ **ViT-Base initialized with Organ Pretraining – 3.0 sec**
-    | time   | Precision| Recall    | F1     | MCC    |Download                                                                     |
-    |--------|----------|-----------|--------|--------|--------|
-    | 1.0 sec| 83.38    | 82.66     | 81.62  | 82.45  | [Download](https://drive.google.com/uc?id=)|
-    | 2.0 sec| 85.80    | 84.99     | 94.39  | 85.41  | [Download](https://drive.google.com/uc?id=)|
-    | 3.0 sec| 83.87    | 83.64     | 82.38  | 83.22  | [Download](https://drive.google.com/uc?id=)|
-    | 5.0 sec| 86.02    | 86.04     | 84.96  | 86.04  | [Download](https://drive.google.com/uc?id=)|
-    | 6.0 sec| 86.63    | 86.18     | 85.47  | 86.26  | [Download](https://drive.google.com/uc?id=)|
-    | 7.0 sec| 87.66    | 87.30     | 86.45  | 87.38  | [Download](https://drive.google.com/uc?id=)|
+    | time   | Precision | Recall    | F1        | MCC       |Download                                                                     |
+    |--------|-----------|-----------|-----------|-----------|--------|
+    | 1.0 sec| 83.38±0.46| 82.66±0.05| 81.62±0.49| 82.45±0.40| [Download](https://drive.google.com/uc?id=)|
+    | 2.0 sec| 85.80±0.44| 84.99±0.48| 84.39±0.47| 85.41±0.42| [Download](https://drive.google.com/uc?id=)|
+    | 3.0 sec| 83.87±0.44| 83.64±0.47| 82.38±0.47| 83.22±0.42| [Download](https://drive.google.com/uc?id=)|
+    | 5.0 sec| 86.02±0.40| 86.04±0.42| 84.96±0.41| 86.04±0.34| [Download](https://drive.google.com/uc?id=)|
+    | 6.0 sec| 86.63±0.42| 86.18±0.44| 85.47±0.43| 86.26±0.37| [Download](https://drive.google.com/uc?id=)|
+    | 7.0 sec| 87.66±0.38| 87.30±0.40| 86.45±0.39| 87.38±0.33| [Download](https://drive.google.com/uc?id=)|
     
 - 2️⃣ **ViT-Base initialized with Organ Pretraining – 9.0 sec**
-    | time   | Precision| Recall    | F1     | MCC    |Download                                                                     |
-    |--------|----------|-----------|--------|--------|--------|
-    | 1.0 sec| 84.20    | 83.43     | 82.71  | 83.46  | [Download](https://drive.google.com/uc?id=)|
-    | 2.0 sec| 85.95    | 85.94     | 85.02  | 85.98  | [Download](https://drive.google.com/uc?id=)|
-    | 3.0 sec| 85.08    | 84.01     | 83.02  | 83.94  | [Download](https://drive.google.com/uc?id=)|
-    | 5.0 sec| 87.48    | 87.18     | 86.26  | 87.44  | [Download](https://drive.google.com/uc?id=)|
-    | 6.0 sec| 87.03    | 86.27     | 85.47  | 86.21  | [Download](https://drive.google.com/uc?id=)|
-    | 7.0 sec| 84.90    | 84.91     | 83.39  | 84.71  | [Download](https://drive.google.com/uc?id=)|
+    | time   | Precision | Recall    | F1        | MCC       |Download                                                                     |
+    |--------|-----------|-----------|-----------|-----------|--------|
+    | 1.0 sec| 84.20±0.46| 83.43±0.47| 82.71±0.48| 83.46±0.43| [Download](https://drive.google.com/uc?id=)|
+    | 2.0 sec| 85.95±0.41| 85.94±0.41| 85.02±0.42| 85.98±0.36| [Download](https://drive.google.com/uc?id=)|
+    | 3.0 sec| 85.08±0.44| 84.01±0.44| 83.02±0.46| 83.94±0.40| [Download](https://drive.google.com/uc?id=)|
+    | 5.0 sec| 87.48±0.39| 87.18±0.41| 86.26±0.41| 87.44±0.34| [Download](https://drive.google.com/uc?id=)|
+    | 6.0 sec| 87.03±0.34| 86.27±0.39| 85.47±0.37| 86.21±0.34| [Download](https://drive.google.com/uc?id=)|
+    | 7.0 sec| 84.90±0.43| 84.91±0.44| 83.39±0.46| 84.71±0.38| [Download](https://drive.google.com/uc?id=)|
 
 - 3️⃣ **ViT-Base initialized with Organ Pretraining – 13.1 sec**
-    | time   | Precision| Recall    | F1     | MCC    |Download                                                                     |
-    |--------|----------|-----------|--------|--------|--------|
-    | 1.0 sec| 83.21    | 81.87     | 80.97  | 82.36  | [Download](https://drive.google.com/uc?id=)|
-    | 2.0 sec| 86.08    | 85.49     | 84.67  | 85.84  | [Download](https://drive.google.com/uc?id=)|
-    | 3.0 sec| 86.14    | 85.21     | 84.56  | 85.26  | [Download](https://drive.google.com/uc?id=)|
-    | 5.0 sec| 85.61    | 84.64     | 83.65  | 84.69  | [Download](https://drive.google.com/uc?id=)|
-    | 6.0 sec| 87.50    | 87.22     | 86.30  | 87.12  | [Download](https://drive.google.com/uc?id=)|
-    | 7.0 sec| **88.37**| **87.82** | **87.03**| 87.79  | [Download](https://drive.google.com/uc?id=)|
+    | time   | Precision| Recall    | F1     | MCC       |Download                                                                     |
+    |--------|---------------|---------------|-----------|-----------|--------|
+    | 1.0 sec| 83.21±0.47    | 81.87±0.49    | 80.97±0.48| 82.36±0.39| [Download](https://drive.google.com/uc?id=)|
+    | 2.0 sec| 86.08±0.40    | 85.49±0.43    | 84.67±0.42| 85.84±0.35| [Download](https://drive.google.com/uc?id=)|
+    | 3.0 sec| 86.14±0.37    | 85.21±0.45    | 84.56±0.42| 85.26±0.40| [Download](https://drive.google.com/uc?id=)|
+    | 5.0 sec| 85.61±0.44    | 84.64±0.47    | 83.65±0.46| 84.69±0.39| [Download](https://drive.google.com/uc?id=)|
+    | 6.0 sec| 87.50±0.37    | 87.22±0.42    | 86.30±0.41| 87.12±0.35| [Download](https://drive.google.com/uc?id=)|
+    | 7.0 sec| **88.37±0.36**| **87.82±0.37**| **87.03±0.39**| 87.79±0.29| [Download](https://drive.google.com/uc?id=)|
 
 ## 📊 Report Quality Indicators
 
@@ -141,17 +141,17 @@ for the stomach.
 
 | Region | Site | Time | Region | Site | Time |
 |:---------:|:----:|:--------:|:---------:|:----:|:--------:|
-| Antrum Antegrade | A1 | 0:17±0:08 | Lower Body Antegrade | A2 | 0:13±0:08 |
-| | L1 | 0:31±0:28 | | L2 | 0:09±0:08 |
-| | P1 | 0:21±0:15 | | P2 | 0:13±0:10 |
-| | G1 | 0:36±0:18 | | G2 | 0:32±0:28 |
-| Middle Body Antegrade | A3 | 0:11±0:11 | Fundus Cardia Reflex | A4 | 0:07±0:04 |
-| | L3 | 0:09±0:08 | | L4 | 0:08±0:07 |
-| | P3 | 0:13±0:09 | | P4 | 0:06±0:05 |
-| | G3 | 0:26±0:20 | | G4 | 0:10±0:06 |
-| Middle Body Reflex | A5 | 0:07±0:06 | Incisura Reflex | A6 | 0:09±0:10 |
-| | L5 | 0:14±0:10 | | L6 | 0:12±0:09 |
-| | P5 | 0:05±0:03 | | P6 | 0:12±0:14 |
+| Antrum Antegrade | A1 | 0:21±0:10 | Lower Body Antegrade | A2 | 0:11±0:06 |
+| | L1 | 0:29±0:27 | | L2 | 0:11±0:06 |
+| | P1 | 0:19±0:13 | | P2 | 0:15±0:12 |
+| | G1 | 0:36±0:19 | | G2 | 0:34±0:36 |
+| Middle Body Antegrade | A3 | 0:08±0:06 | Fundus Cardia Reflex | A4 | 0:05±0:04 |
+| | L3 | 0:07±0:06 | | L4 | 0:06±0:04 |
+| | P3 | 0:11±0:08 | | P4 | 0:06±0:05 |
+| | G3 | 0:24±0:17 | | G4 | 0:09±0:07 |
+| Middle Body Reflex | A5 | 0:05±0:05 | Incisura Reflex | A6 | 0:11±0:09 |
+| | L5 | 0:10±0:08 | | L6 | 0:11±0:11 |
+| | P5 | 0:05±0:03 | | P6 | 0:10±0:09 |
 
 
 <img src="figures/Quality_Indicator.jpg" alt="QI" width="700">

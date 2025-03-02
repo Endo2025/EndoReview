@@ -1,4 +1,11 @@
 data/*
 !data/offcial_splits/
-!data/scripts/convert_video_to_15fps.py
+!data/scripts/
+
+features/*
+!features/scripts_organ/linear_projection_features.py
+
+
+stomach_classification/*
+util/* 
 
