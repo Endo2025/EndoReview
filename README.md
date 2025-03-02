@@ -99,32 +99,32 @@ Summary of Experiments
 - 1️⃣ **ViT-Base initialized with Organ Pretraining – 3.0 sec**
     | time   | Precision | Recall    | F1        | MCC       |Download                                                                     |
     |--------|-----------|-----------|-----------|-----------|--------|
-    | 1.0 sec| 83.38±0.46| 82.66±0.05| 81.62±0.49| 82.45±0.40| [Download](https://drive.google.com/uc?id=)|
-    | 2.0 sec| 85.80±0.44| 84.99±0.48| 84.39±0.47| 85.41±0.42| [Download](https://drive.google.com/uc?id=)|
-    | 3.0 sec| 83.87±0.44| 83.64±0.47| 82.38±0.47| 83.22±0.42| [Download](https://drive.google.com/uc?id=)|
-    | 5.0 sec| 86.02±0.40| 86.04±0.42| 84.96±0.41| 86.04±0.34| [Download](https://drive.google.com/uc?id=)|
-    | 6.0 sec| 86.63±0.42| 86.18±0.44| 85.47±0.43| 86.26±0.37| [Download](https://drive.google.com/uc?id=)|
-    | 7.0 sec| 87.66±0.38| 87.30±0.40| 86.45±0.39| 87.38±0.33| [Download](https://drive.google.com/uc?id=)|
+    | 1.0 sec| 83.38±0.46| 82.66±0.05| 81.62±0.49| 82.45±0.40| [Download](https://drive.google.com/uc?id=19vaVy1zTSAyPPh5HGYpnuo9ZJ5VxzLAv)|
+    | 2.0 sec| 85.80±0.44| 84.99±0.48| 84.39±0.47| 85.41±0.42| [Download](https://drive.google.com/uc?id=1nj6AZaYCsJBPcRxp2W6XGKXIJHd73kwa)|
+    | 3.0 sec| 83.87±0.44| 83.64±0.47| 82.38±0.47| 83.22±0.42| [Download](https://drive.google.com/uc?id=1ZJrPqdOvvLtGj2_v2nU5JZFcRnfLgyKI)|
+    | 5.0 sec| 86.02±0.40| 86.04±0.42| 84.96±0.41| 86.04±0.34| [Download](https://drive.google.com/uc?id=1fvfQgaH5VYq2Kf2qcHaZeYrBDanj7SEO)|
+    | 6.0 sec| 86.63±0.42| 86.18±0.44| 85.47±0.43| 86.26±0.37| [Download](https://drive.google.com/uc?id=1iJpAbhmo4zcxKx3UhxrKB5LFu1zCp1LU)|
+    | 7.0 sec| 87.66±0.38| 87.30±0.40| 86.45±0.39| 87.38±0.33| [Download](https://drive.google.com/uc?id=1H2qAC8JlMgN2R0zexKox80qqgjHrsKhy)|
     
 - 2️⃣ **ViT-Base initialized with Organ Pretraining – 9.0 sec**
     | time   | Precision | Recall    | F1        | MCC       |Download                                                                     |
     |--------|-----------|-----------|-----------|-----------|--------|
-    | 1.0 sec| 84.20±0.46| 83.43±0.47| 82.71±0.48| 83.46±0.43| [Download](https://drive.google.com/uc?id=)|
-    | 2.0 sec| 85.95±0.41| 85.94±0.41| 85.02±0.42| 85.98±0.36| [Download](https://drive.google.com/uc?id=)|
-    | 3.0 sec| 85.08±0.44| 84.01±0.44| 83.02±0.46| 83.94±0.40| [Download](https://drive.google.com/uc?id=)|
-    | 5.0 sec| 87.48±0.39| 87.18±0.41| 86.26±0.41| 87.44±0.34| [Download](https://drive.google.com/uc?id=)|
-    | 6.0 sec| 87.03±0.34| 86.27±0.39| 85.47±0.37| 86.21±0.34| [Download](https://drive.google.com/uc?id=)|
-    | 7.0 sec| 84.90±0.43| 84.91±0.44| 83.39±0.46| 84.71±0.38| [Download](https://drive.google.com/uc?id=)|
+    | 1.0 sec| 84.20±0.46| 83.43±0.47| 82.71±0.48| 83.46±0.43| [Download](https://drive.google.com/uc?id=1IG7-yhA_RZa6Btn97SqR_JqwE0IcpsO6)|
+    | 2.0 sec| 85.95±0.41| 85.94±0.41| 85.02±0.42| 85.98±0.36| [Download](https://drive.google.com/uc?id=1745fOvH91A0_XC56UCXeZCkp8i2YWM5N)|
+    | 3.0 sec| 85.08±0.44| 84.01±0.44| 83.02±0.46| 83.94±0.40| [Download](https://drive.google.com/uc?id=1SkiSG1TwJWFraxaikPu8z4tN8BX1sfqB)|
+    | 5.0 sec| 87.48±0.39| 87.18±0.41| 86.26±0.41| 87.44±0.34| [Download](https://drive.google.com/uc?id=1h8c90VADPJz5nPWhm6L6COmr_Xavtazl)|
+    | 6.0 sec| 87.03±0.34| 86.27±0.39| 85.47±0.37| 86.21±0.34| [Download](https://drive.google.com/uc?id=1k5tVvsX6pYZftWlrdnZGCda3nzQ2BC-3)|
+    | 7.0 sec| 84.90±0.43| 84.91±0.44| 83.39±0.46| 84.71±0.38| [Download](https://drive.google.com/uc?id=1Eca_keTxZlu8cRNBMA7zVy1Bp8fOQMct)|
 
 - 3️⃣ **ViT-Base initialized with Organ Pretraining – 13.1 sec**
     | time   | Precision| Recall    | F1     | MCC       |Download                                                                     |
     |--------|---------------|---------------|-----------|-----------|--------|
-    | 1.0 sec| 83.21±0.47    | 81.87±0.49    | 80.97±0.48| 82.36±0.39| [Download](https://drive.google.com/uc?id=)|
-    | 2.0 sec| 86.08±0.40    | 85.49±0.43    | 84.67±0.42| 85.84±0.35| [Download](https://drive.google.com/uc?id=)|
-    | 3.0 sec| 86.14±0.37    | 85.21±0.45    | 84.56±0.42| 85.26±0.40| [Download](https://drive.google.com/uc?id=)|
-    | 5.0 sec| 85.61±0.44    | 84.64±0.47    | 83.65±0.46| 84.69±0.39| [Download](https://drive.google.com/uc?id=)|
-    | 6.0 sec| 87.50±0.37    | 87.22±0.42    | 86.30±0.41| 87.12±0.35| [Download](https://drive.google.com/uc?id=)|
-    | 7.0 sec| **88.37±0.36**| **87.82±0.37**| **87.03±0.39**| 87.79±0.29| [Download](https://drive.google.com/uc?id=)|
+    | 1.0 sec| 83.21±0.47    | 81.87±0.49    | 80.97±0.48| 82.36±0.39| [Download](https://drive.google.com/uc?id=1511WD-WPRk5EeKF_LXlrE2ItExWVEkCm)|
+    | 2.0 sec| 86.08±0.40    | 85.49±0.43    | 84.67±0.42| 85.84±0.35| [Download](https://drive.google.com/uc?id=1DlbFexhuM4FivrMGqT6xpI7fbCfo5rQ4)|
+    | 3.0 sec| 86.14±0.37    | 85.21±0.45    | 84.56±0.42| 85.26±0.40| [Download](https://drive.google.com/uc?id=1mX6HUF0tmYLwaavH6Dg9zdLSeNTWVgBb)|
+    | 5.0 sec| 85.61±0.44    | 84.64±0.47    | 83.65±0.46| 84.69±0.39| [Download](https://drive.google.com/uc?id=1mRYxtqeiVxQUYXH9KwRKwpW8sfLetMiK)|
+    | 6.0 sec| 87.50±0.37    | 87.22±0.42    | 86.30±0.41| 87.12±0.35| [Download](https://drive.google.com/uc?id=1y978rZkoQPkPN-n6iDxHMYWzf3hl72bS)|
+    | 7.0 sec| **88.37±0.36**| **87.82±0.37**| **87.03±0.39**| 87.79±0.29| [Download](https://drive.google.com/uc?id=1GsuP4CroKvStZGm39JbVtRrlZx33FcuV)|
 
 ## 📊 Report Quality Indicators
 
