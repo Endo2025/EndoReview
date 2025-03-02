@@ -6,7 +6,7 @@ Welcome to the official repository for our MICCAI 2025 paper, currently under do
 📊 Data
 Summary: 
 🔗 **Dataset:** [Figshare](https://doi.org/10.6084/m9.figshare.27308133)
-🔗 **Code:** [GitHub](https://github.com/)
+🔗 **Code:** [GitHub](https://github.com/Endo2025/EndoReview.git)
 
 This section provides an overview of the datasets used in our study 📌.
 - 📼 Videoendoscopies for Organ Classification: 237 MP4 videos from 233 patients (∼1.6 million frames).
@@ -48,7 +48,10 @@ Summary of Experiments
 - 2️⃣ ViT-Base initialized with Random Weights
 - 3️⃣ ViT-Base initialized with ImageNet Pretraining
 
+<!--
 📂 For more details, refer to the [organclassification.md](organclassification.md) file.
+-->
+📂 The trained models are available. However, the training scripts and labels for organ classification will be available after the peer-review process is completed.
 
 - 1️⃣ One Attention Layer initialized with Random Weights
 
@@ -88,7 +91,10 @@ Summary of Experiments
   - 1️⃣ **ViT-Base initialized with Organ Pretraining – 3.0 sec**
   - 2️⃣ **ViT-Base initialized with Organ Pretraining – 9.0 sec**
   - 3️⃣ **ViT-Base initialized with Organ Pretraining – 13.1 sec**
+<!--
 📂 For a detailed breakdown, refer to the [stomachsiteclassification.md](stomachsiteclassification.md) file.
+-->
+📂 The trained models are available. However, the training scripts will be available after the peer-review process is completed.
 
 - 1️⃣ **ViT-Base initialized with Organ Pretraining – 3.0 sec**
     | time   | Precision | Recall    | F1        | MCC       |Download                                                                     |
