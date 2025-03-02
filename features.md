@@ -9,50 +9,50 @@ For all samples the data normalization was performed using the mean and standard
 
 
 # 1. Videoendoscopies
-1. **ViT’s patch-based linear projection (16×16×3):** Run script open a terminal and navigate to the directory containing `vit_patch_linear.py` and define the parameters:
+1. **ViT’s patch-based linear projection (16×16×3):** Run script open a terminal and navigate to the directory containing `linear_projection_features.py` and define the parameters:
 
     ```bash
     OUTPUT_DIR='..\data\15 FPS'
     DATA_PATH='..\data\Videoendoscopies'
-    DATA_SPLIT='..\official_splits\gastrohun-videoendoscopy-metadata.json'
+    DATAFRAME='..\official_splits\videoendoscopy-metadata.json'
 
-    !python vit_patch_linear.py \
+    !python linear_projection_features.py \
     --num_workers 0 \
-    --input_size 16 \
-    --batch_size 15 \
+    --batch_size 256 \
     --data_path ${DATA_PATH}  \
     --output_dir ${OUTPUT_DIR} \
-    --official_split ${DATA_SPLIT}  
+    --dataframe  ${DATAFRAME}  
     ```
-2. **ConvNeXt-Tiny pretrained on ImageNet:** Run script open a terminal and navigate to the directory containing `vit_patch_linear.py` and define the parameters:
+2. **ConvNeXt-Tiny pretrained on ImageNet:** Run script open a terminal and navigate to the directory containing `imagenet_features.py` and define the parameters:
 
     ```bash
     OUTPUT_DIR='..\data\15 FPS'
     DATA_PATH='..\data\Videoendoscopies'
-    DATA_SPLIT='..\official_splits\gastrohun-videoendoscopy-metadata.json'
+    DATAFRAME='..\official_splits\videoendoscopy-metadata.json'
 
-    !python vit_patch_linear.py \
+    !python imagenet_features.py \
     --num_workers 0 \
-    --input_size 16 \
-    --batch_size 15 \
+    --batch_size 256 \
     --data_path ${DATA_PATH}  \
     --output_dir ${OUTPUT_DIR} \
-    --official_split ${DATA_SPLIT}  
+    --dataframe  ${DATAFRAME}  
     ```
-2. **ConvNeXt-Tiny pretrained on Endoscopy:** Run script open a terminal and navigate to the directory containing `vit_patch_linear.py` and define the parameters:
+3. **ConvNeXt-Tiny pretrained on Endoscopy:** Run script open a terminal and navigate to the directory containing `endoscopy_features.py` and define the parameters:
+The **DATA_MODEL** is trained on the endoscopy dataset and can be downloaded from [Download](https://drive.google.com/uc?id=1ehpeF044ABRcwa6xMQ9zFRGfxWtuOav9)
 
     ```bash
     OUTPUT_DIR='..\data\15 FPS'
     DATA_PATH='..\data\Videoendoscopies'
-    DATA_SPLIT='..\official_splits\gastrohun-videoendoscopy-metadata.json'
+    DATA_MODEL='..\best-model-val_f1_macro.ckpt'
+    DATAFRAME='..\official_splits\videoendoscopy-metadata.json'
 
-    !python vit_patch_linear.py \
+    !python endoscopy_features.py \
     --num_workers 0 \
-    --input_size 16 \
-    --batch_size 15 \
+    --batch_size 256 \
     --data_path ${DATA_PATH}  \
+    --path_model ${DATA_MODEL} \
     --output_dir ${OUTPUT_DIR} \
-    --official_split ${DATA_SPLIT}  
+    --dataframe  ${DATAFRAME}  
     ```
 
 
@@ -60,5 +60,5 @@ For all samples the data normalization was performed using the mean and standard
 1. Check the existence of the paths of: 
    - DATA_PATH
    - MODEL_PATH
-   - DATA_SPLIT 
+   - DATAFRAME 
 
