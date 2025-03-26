@@ -235,5 +235,15 @@ if __name__ == '__main__':
         frames_tensor = load_frames_from_video(video_path, transform)
         dataset = VideoFrameDataset(frames_tensor)
         dataloader = DataLoader(dataset, batch_size=args.batch_size, shuffle=False, num_workers=args.num_workers)
+        frame_index = 0
+        for batch in dataloader:
+            batch = batch.to(device)
+
+            with torch.no_grad():
+                features = model(batch).cpu().numpy()
+
+            for i, feature in enumerate(features):
+                torch.save(torch.tensor(feature), os.path.join(path_save_feat, f'{frame_index:05d}.pt'))
+                frame_index += 1
 
     print("🚀 Feature extraction complete!")

@@ -1,7 +1,7 @@
 # Automated Upper Endoscopy Auditing of Procedure Times: Temporal Multiclass Analysis
 <img src="figures/Pipeline.jpg" alt="Pipeline" width="700">
 
-Welcome to the official repository for our MICCAI 2025 paper, currently under double-blind peer review. Here, you'll find scripts, datasets, and models essential for our research. 🚀
+Welcome to the anonymous repository for our MICCAI 2025 paper, currently under double-blind peer review. Here, you'll find scripts, datasets, and models essential for our research. 🚀
 
 📊 Data
 Summary: 
@@ -168,10 +168,10 @@ Please refer to the [libraries.md](libraries.md) file for detailed installation 
 
 
 ## 📓 Notebooks
-`resultsipynb`:  Use this notebook to run image and sequence classification tasks for inference.
+`predict_example.ipynb`:  Use this notebook to run sequence classification tasks for inference.
 
 Note 🗈:  To run this code in Google Colab, click the logo:
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/12zrP3bqw8FftpLJu1uWQ2nvvBKH6iJ_2)
 
 
 

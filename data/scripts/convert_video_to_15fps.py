@@ -84,6 +84,7 @@ if __name__ == '__main__':
     # Process each video in the dataframe
     for idx in tqdm(df_vd.index):
         fps = df_vd["fps"].loc[idx]
+  
         video_path = os.path.join(args.path_data, str(df_vd["num patient"].loc[idx]), 
                                 df_vd["filename"].loc[idx])
         # Create output directory for the current patient
@@ -97,7 +98,7 @@ if __name__ == '__main__':
             if not os.path.exists(output_path) and os.path.exists(video_path):
                 try:
                     convert_video(video_path, output_path, quality=23, preset="slow", fps=15)
-                    #print(f"🎥 Converted: '{video_path}' → '{output_path}' (30fps → 15fps)")
+                    print(f"🎥 Converted: '{video_path}' → '{output_path}' (30fps → 15fps)")
                 except Exception as e:
                     print(f"❌ Error converting '{video_path}': {e}")    
         elif fps == 15:
